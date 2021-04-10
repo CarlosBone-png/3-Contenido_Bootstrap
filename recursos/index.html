@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/basico.css">
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.js" 
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+        crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" 
+        integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" 
+        crossorigin="anonymous"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+        crossorigin="anonymous">
+    </head>
+    
+    <body>
+
+        <!-- Barra Superior-->
+        
+        <header id="BarraSuperior" class="container-fluid">
+            <nav class="navbar navbar-expand-1g navbar-light bg-dark row">
+
+                <a href="#" class="navbar-brand col-md-2"> 
+                    <img src="images/sanJuanMod.jpg" alt="" 
+                    class="img-fluid rounded-circle">
+                    <span class="text-white"> Nuestras Playas </span>
+                </a>
+
+                <ul class="navbar nav col-md-2">
+                    <li class="navbar-item"> 
+                        <a href="#" class="nav-link text-light"> Home <i class="fas fa-home"> </i></a></li>
+                    <li class="navbar-item"> 
+                        <a href="#" class="nav-link text-light"> Contacto <i class="far fa-id-card"> </i></a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenido -->
+        <section id="principal" class="d-flex flex-row ">
+            <!-- Menu lateral -->
+            <article id="lateral" class="bg-dark">
+                <nav class="navbar mx-3">
+                    
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light"> Playas </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light"> Lagos </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light"> Lagunas </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light"> Otros </a>
+                        </li>
+
+                    </ul>
+                </nav> 
+
+            </article>
+            <!-- Contenido Principal -->
+            <main id="central" class="d-flex flex-column justify-content-center">
+                <header id="Banner">
+                    <h2 class="h2 my-2 py-2 text-center">
+                        Las exoticas playas de Nicaragua.
+                    </h2>
+
+                </header>
+                <section id="contenido">
+                    <article id="jumbotron" class="d-flex flex-row">
+                  
+                        <div class="jumbotron mx-3  bg-dark">
+                            <h1> Playas del Pacifico</h1>
+                            <p> Alguna descripcion corta</p>
+                            <a href="#" class="btn btn-outline-light"> Mas info</a>
+                        </div>
+                        
+                        <div class="jumbotron mx-3 bg-dark">
+                            <h1> Playas del Atlantico</h1>
+                            <span> Alguna descripcion corta </span>
+                            <a href="#" class="btn btn-outline-light"> Mas Info </a>
+                        </div>
+
+                        <div class="jumbotron mx-3 bg-dark justify-content-center">
+                            <h1> Lagos y Lagunas</h1>
+                            <span> Alguna descripcion corta </span>
+                            <a href="#" class="btn btn-outline-light"> Mas Info </a>
+                        </div>
+
+                    </article>
+                    <article>
+                        <div id="table"class="table-responsive table-striped table-danger">
+                            <table class="table table-striped table-hover t">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Region
+                                        </th>
+                                        <th>
+                                            Playas
+                                        </th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Atlantico</td>
+                                        <td>Little Corn Island</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Pacifico</td>
+                                        <td>Paso Caballos</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Lago</td>
+                                        <td>Cocibolca</td>
+                                    </tr>
+
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th colspan="2"> Todas son playas maravillosas. </th>
+                                    </tr>
+
+                                </tfoot>
+                            </table>
+                            
+                        </div>
+                    </article>
+                   <div id="accordianId" role="tablist" aria-multiselectable="true">
+                       <div class="card bg-dark border-light">
+                           <div class="card-header" role="tab" id="section1HeaderId">
+                               <h5 class="mb-0">
+                                   <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId" class="text-light">
+                             Oceanos
+                           </a>
+                               </h5>
+                           </div>
+                           <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+                               <div class="card-body">
+                                   
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card bg-dark border-light">
+                           <div class="card-header" role="tab" id="section2HeaderId">
+                               <h5 class="mb-0">
+                                   <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId" class="text-light">
+                                    Lagos y lagunas
+                           </a>
+                               </h5>
+                           </div>
+                           <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+                               <div class="card-body">
+                                   
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card bg-dark border-light">
+                        <div class="card-header" role="tab" id="section3HeaderId">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordianId" href="#section3ContentId" aria-expanded="true" aria-controls="section3ContentId" class="text-light">
+                          Otros
+                        </a>
+                            </h5>
+                        </div>
+                        <div id="section3ContentId" class="collapse in" role="tabpanel" aria-labelledby="section3HeaderId">
+                            <div class="card-body">
+                                
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </section>
+                <footer id="piepagina">
+
+                </footer>
+                <ul class="d-flex flex-arrow justify-content-center " id="icons">
+                    <li> <i class="fab fa-facebook fa-2x mx-3"></i></li>
+                    <li> <i class="fab fa-twitter fa-2x mx-3"></i></li>
+                    <li> <i class="fab fa-instagram fa-2x mx-3"> </i></li>
+                    <li> <i class="fab fa-youtube fa-2x mx-3"> </i></li>
+                    
+                </ul>
+
+            </main>
+
+        </section>
+
+    </body>
+</html>

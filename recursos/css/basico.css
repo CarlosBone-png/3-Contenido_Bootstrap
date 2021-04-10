@@ -1,0 +1,57 @@
+* {
+    Margin: 0%;
+    padding: 0%
+}
+
+
+
+#lateral{
+    width: 10%;
+    height: 800px;
+    color: rgb(245, 245, 245);
+}
+
+#Banner {
+    text-align: center;
+    text-shadow: 2px 2px rgb(26, 26, 26) ;
+    color:rgb(192, 101, 121)
+}
+
+#jumbotron{
+    padding-left: 5%;
+
+}
+
+.jumbotron{
+    width: 350px;
+    height: 280px;
+    text-align: left;
+    justify-content: left;
+    color: rgb(211, 122, 122);  
+}
+#accordianId{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-left: 5%;
+}
+ #principal{
+     background-color: rgb(245, 198, 202);
+ }
+#table{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-left: 5%;
+}
+
+#icons{
+    list-style-type: none;
+    size: 200%;
+}
+
+footer{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
